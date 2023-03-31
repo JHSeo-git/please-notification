@@ -1,0 +1,14 @@
+{
+  "name": "@pn/email-templates",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "email dev",
+    "export": "email export",
+    "lint": "eslint --fix ./emails --ext .ts,.tsx,.js,.jsx --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@react-email/components": "0.0.3",
+    "react-email": "1.7.15"
+  }
+}
