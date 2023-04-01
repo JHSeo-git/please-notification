@@ -1,3 +1,5 @@
 # please-notification
 
-Practice for email with React
+Practice email with react-email.
+
+https://please-notification.vercel.app/
