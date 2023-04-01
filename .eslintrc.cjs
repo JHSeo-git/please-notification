@@ -26,7 +26,6 @@ module.exports = {
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
     'plugin:tailwindcss/recommended',
-    'turbo',
   ],
   plugins: [
     '@typescript-eslint',

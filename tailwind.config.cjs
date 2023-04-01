@@ -8,11 +8,18 @@ module.exports = {
     hoverOnlyWhenSupported: true,
   },
   theme: {
+    container: {
+      center: true,
+      padding: '1rem',
+      screens: {
+        xl: '1200px',
+      },
+    },
     extend: {
       fontFamily: {
         sans: ['var(--font-sans)', ...fontFamily.sans],
       },
     },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-animate')],
 };
